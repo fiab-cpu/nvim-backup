@@ -37,11 +37,13 @@ vim.api.nvim_create_autocmd({ "BufWritePost" }, {
   end,
 })
 
-vim.api.nvim_create_autocmd({ "VimEnter" }, {
-  callback = function()
-    vim.cmd "Alpha"
-  end,
-})
+
+--vim.api.nvim_create_autocmd({ "VimEnter" }, {
+--  callback = function()
+--    vim.cmd "Alpha"
+--  end,
+--})
+
 
 vim.api.nvim_create_autocmd({ "BufWinEnter" }, {
   callback = function()

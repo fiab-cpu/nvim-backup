@@ -8,13 +8,15 @@ local M = {
       "ahmedkhalf/project.nvim",
       "nvim-lua/plenary.nvim",
       "BurntSushi/ripgrep",
+      "ryanoasis/vim-devicons",
+      "nvim-treesitter/nvim-treesitter"
     },
   },
 }
 
 M.opts = {
   defaults = {
-    prompt_prefix = "󰗧 ",
+    prompt_prefix = "󰗧",
     selection_caret = " ",
     path_display = { "smart" },
     file_ignore_patterns = { ".git/", "node_modules" },
@@ -25,7 +27,7 @@ M.opts = {
       theme = "ivy"
     },
     live_grep = {
-      theme = "ivy"
+      theme = "dropdown"
     }
   }
 }

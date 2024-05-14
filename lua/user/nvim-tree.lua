@@ -118,16 +118,17 @@ function M.config()
       show_on_dirs = true,
       icons = {
         hint = "󰌵",
-        info = "",
-        warning = "",
-        error = "",
+        info = "?",
+        warning = "!",
+        error = "X",
       },
     },
     view = {
       width = 30,
       side = "left",
+      relativenumber = true,
     },
-    sort = {
+    sort_by = {
       sorter = "name",
       folders_first = true,
       files_first = false,
